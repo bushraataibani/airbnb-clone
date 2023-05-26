@@ -8,7 +8,7 @@ const SearchResults = () => {
     <View>
       <FlatList
         data={feed}
-        renderItem={({item}) => <Post item={item} key={item?.key} />}
+        renderItem={({item}) => <Post item={item} key={item?.id} />}
       />
     </View>
   );
