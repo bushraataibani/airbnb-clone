@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     gap: 5,
     position: 'absolute',
-    top: 20,
+    top: 25,
     zIndex: 100,
   },
   searchButtonText: {fontSize: 16, fontWeight: 'bold', color: '#000'},

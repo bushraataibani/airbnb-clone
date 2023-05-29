@@ -3,7 +3,10 @@ import {StyleSheet} from 'react-native';
 const styles = StyleSheet.create({
   container: {
     margin: 20,
+    justifyContent: 'space-between',
+    height: '100%',
   },
+  innerContainer: {},
   guestList: {
     flexDirection: 'row',
     justifyContent: 'space-between',
@@ -27,6 +30,20 @@ const styles = StyleSheet.create({
   },
   guestCount: {
     fontSize: 16,
+  },
+  searchBtn: {
+    marginVertical: 40,
+    backgroundColor: '#f15454',
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: 15,
+    marginHorizontal: 20,
+    borderRadius: 10,
+  },
+  searchText: {
+    fontSize: 18,
+    color: '#fff',
+    fontWeight: 'bold',
   },
 });
 
