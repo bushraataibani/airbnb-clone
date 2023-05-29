@@ -89,7 +89,16 @@ const GuestList = () => {
         </View>
       </View>
 
-      <Pressable style={styles.searchBtn}>
+      <Pressable
+        style={styles.searchBtn}
+        onPress={() => {
+          navigation.navigate('Home', {
+            screen: 'Explore',
+            params: {
+              screen: 'SearchResults',
+            },
+          });
+        }}>
         <Text style={styles.searchText}>Search</Text>
       </Pressable>
     </View>

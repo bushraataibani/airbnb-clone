@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
   },
   searchText: {
     fontSize: 18,
-    color: '#fff',
+    color: 'white',
     fontWeight: 'bold',
   },
 });

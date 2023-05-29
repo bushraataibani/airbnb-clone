@@ -12,7 +12,7 @@ const Router = () => {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen
-          name={'home'}
+          name={'Home'}
           component={HomeTabNavigator}
           options={{
             headerShown: false,
